@@ -1,0 +1,339 @@
+/*This is the CSS file specific to Impulse*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #cacaca;
+    border-width: 3px;
+}
+
+
+.dark {
+    max-width: 50px;
+    border-color: #000;
+    border-width: 1px;
+}
+
+a {
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+a.blue{
+    color: blue;
+}
+
+a.blue:hover,
+a.blue:focus {
+    color: blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Superhuman Gotham Book";
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Superhuman Gotham Book";
+}
+
+.bg-primary {
+    background-color: #f05f40;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+section {
+    padding: 100px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    /*min-height: auto;*/
+    text-align: center;
+    color: #fff;
+    background-image: url(../../images/intro-bg-1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+    height: 700px;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,.7);
+}
+
+.bg1 {
+    background-color: #fff;
+
+}
+
+.bg2 {
+    /*background-color: #EF6C00;*/
+    background-image: url(../../images/product-bg.jpg);
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg3 {
+    background-color: #ffffff;
+}
+
+.bg4 {
+    background-image: url(../../images/contact-bg.jpg);
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg5 {
+    background-image: url(../../images/news-bg-3.jpg);
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section-heading {
+    margin-top: 0;
+}
+
+.person {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 25px;
+  border-color: white;
+  text-align: center;
+}
+
+.person-name {
+    text-align: center;
+  /*padding: 10px 20px;*/
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 26.4px;
+    text-transform: uppercase;
+}
+
+.company-title {
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-transform: uppercase;
+}
+
+.person-bio {
+  padding: 10px 20px;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.team-spacing {
+    display: inline-block;
+    border-style: none;
+    /*padding-right: 10px;*/
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news-spacing {
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 15px;  
+}
+
+.news-container {
+   width: 450px;
+  height: 250px;
+  background-color: white;
+  border-color: white;
+}
+
+.news-title {
+    text-align: center;
+  /*padding: 10px 20px;*/
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    /*line-height: 26.4px;*/
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.news-company-banner {
+    width: 100%;
+    height: 20%;
+    background-color: #185f7d;
+    color: white;
+     text-align: center;
+  /*padding: 10px 20px;*/
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    /*line-height: 26.4px;*/
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.news-company-2-banner {
+    width: 100%;
+    height: 20%;
+    background-color: #800000;
+    color: white;
+     text-align: center;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.news-excerpt {
+    color: black;
+    padding: 10px 20px;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.news-link {
+    text-align: center;
+    
+}
+
+.img-circle {
+    border-radius: 50%;
+    padding-bottom: 20px;
+    
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.info-btn {
+    display: inline-block;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-input-size-md {
+    width: 600px;
+}
+
+.nav-bar-logo-text {
+    text-transform: uppercase;
+    font-family: "Superhuman Gotham Book";
+    letter-spacing: .25em;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+.wow { /*Allows me to set the animation to occur once the div actually is visible.*/
+    visibility: hidden;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
